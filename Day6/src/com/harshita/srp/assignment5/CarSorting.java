@@ -36,7 +36,7 @@ public class CarSorting {
         }
     }
 
-    private static Set<Car> createCars(Set<Car> cars) {
+    private static void createCars(Set<Car> cars) {
         cars.add(new Car(1,2000000,"abc"));
         cars.add(new Car(3,200000,"def"));
         cars.add(new Car(2,20000,"ghi"));
@@ -57,6 +57,5 @@ public class CarSorting {
         cars.add(new Car(12,440000,"abaac"));
         cars.add(new Car(18,5500000,"abasc"));
         cars.add(new Car(13,6600000,"abcac"));
-        return cars;
     }
 }
